@@ -38,8 +38,9 @@ li:first-letter {
 .weather-app-wrapper .btn-primary {
   border-radius: 5px;
   background-color: #bdcfd6;
-  border: 1px solid #878787;
-  color: #878787;
+  border: 1px solid transparent;
+  color: rgb(245, 249, 250) 100.2%;
+  box-shadow: rgb(214, 213, 213) 0px 3px 6px 0;
 }
 
 .weather-app {
