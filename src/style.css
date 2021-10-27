@@ -1,6 +1,11 @@
 body {
   font-family: "Poiret One", cursive;
-  background: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%) fixed;
+  background: linear-gradient(
+      111.1deg,
+      rgb(251, 140, 0) 3.2%,
+      rgb(98, 0, 234) 90.3%
+    )
+    fixed;
 }
 
 h1 {
