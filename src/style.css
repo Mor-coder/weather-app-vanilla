@@ -1,7 +1,6 @@
 body {
   font-family: "Poiret One", cursive;
-  background: linear-gradient(to top, #d5dee7 0%, #ffafbd 0%, #c9ffbf 100%)
-    fixed;
+  background: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%) fixed;
 }
 
 h1 {
@@ -22,7 +21,7 @@ li {
   margin: 0;
   padding: 0;
   color: rgb(135, 135, 135);
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 100;
   line-height: 19px;
 }
