@@ -6,6 +6,17 @@ body {
       rgb(98, 0, 234) 90.3%
     )
     fixed;
+  background-size: 400%;
+  animation: bg-animation 20s infinite alternate;
+}
+
+@keyframes bg-animation {
+  0% {
+    background-position: left;
+  }
+  100% {
+    background-position: right;
+  }
 }
 
 h1 {
