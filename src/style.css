@@ -1,26 +1,19 @@
 body {
   font-family: "Poiret One", cursive;
-  background: linear-gradient(
-      111.1deg,
-      rgb(251, 140, 0) 3.2%,
-      rgb(98, 0, 234) 90.3%
+  background: radial-gradient(
+      circle farthest-corner at -8.9% 51.2%,
+      rgba(255, 124, 0, 1) 0%,
+      rgba(255, 124, 0, 1) 15.9%,
+      rgba(255, 163, 77, 1) 15.9%,
+      rgba(255, 163, 77, 1) 24.4%,
+      rgba(19, 30, 37, 1) 24.5%,
+      rgba(19, 30, 37, 1) 66%
     )
     fixed;
-  background-size: 400%;
-  animation: bg-animation 20s infinite alternate;
-}
-
-@keyframes bg-animation {
-  0% {
-    background-position: left;
-  }
-  100% {
-    background-position: right;
-  }
 }
 
 h1 {
-  color: #878787;
+  color: rgb(33, 33, 33);
   font-size: 24px;
   font-weight: 100;
   line-height: 28px;
@@ -36,7 +29,7 @@ li {
   list-style: none;
   margin: 0;
   padding: 0;
-  color: rgb(135, 135, 135);
+  color: rgb(33, 33, 33);
   font-size: 18px;
   font-weight: 100;
   line-height: 19px;
@@ -55,19 +48,30 @@ li:first-letter {
   border-radius: 5px;
   background-color: #bdcfd6;
   border: 1px solid transparent;
-  color: rgb(245, 249, 250) 100.2%;
-  box-shadow: rgb(214, 213, 213) 0px 3px 6px 0;
+  color: rgb(33, 33, 33) 100.2%;
+  box-shadow: rgb(214, 213, 213) 0px 2px 2px 0;
 }
 
 .weather-app {
   padding: 20px;
-  border: 1px solid #878787;
+  border: 1px solid transparent;
   border-radius: 5px;
   background: linear-gradient(
-    109.6deg,
-    rgb(204, 228, 247) 11.2%,
-    rgb(237, 246, 250) 100.2%
+    111.1deg,
+    rgb(251, 140, 0) 3.2%,
+    rgb(98, 0, 234) 90.3%
   );
+  background-size: 400%;
+  animation: bg-animation 20s infinite alternate;
+}
+
+@keyframes bg-animation {
+  0% {
+    background-position: left;
+  }
+  100% {
+    background-position: right;
+  }
 }
 
 .overview {
@@ -82,7 +86,7 @@ li:first-letter {
 }
 
 .weather-temperature strong {
-  color: #fc7b02;
+  color: rgb(33, 33, 33);
   font-size: 64px;
   font-weight: 400px;
   line-height: 1;
@@ -122,4 +126,9 @@ li:first-letter {
 .weather-forecast-temperatures {
   font-size: 13px;
   color: #000;
+}
+
+p {
+  color: #ff7c00;
+  font-weight: 100;
 }
